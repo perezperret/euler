@@ -24,6 +24,6 @@ def longest_collatz(limit):
       value = val
   return result
 
-print(longest_collatz(int(1e6)))
-print(collatz_length(837799))
+# print(longest_collatz(int(1e6)))
+# print(collatz_length(837799))
 # >>> 837799

@@ -1,6 +1,6 @@
 '''
   Problem: Sum of even fibonacci numbers under 4e6.
-  Some efficiency can be gained by running the sum in a 
+  Some efficiency can be gained by running the sum in a
   single function, however the solution was accaptable
   for the requirement
 '''
@@ -21,8 +21,6 @@ def fib(limit):
   ## return list
   return result
 
-assert fib(25) == [0, 1, 1, 2, 3, 5, 8, 13, 21]
-
 def sumEvens(nums):
   result = 0
   for num in nums:
@@ -30,5 +28,4 @@ def sumEvens(nums):
       result += num
   return result
 
-assert sumEvens(fib(25)) == 10
 print(sumEvens(fib(4e6)))

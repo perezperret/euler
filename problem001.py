@@ -11,5 +11,4 @@ def sumOfMultiplesOf3and5(number):
 
     return(result)
 
-assert sumOfMultiplesOf3and5(10) == 23
 print(sumOfMultiplesOf3and5(1000))
