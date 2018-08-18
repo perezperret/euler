@@ -1,6 +1,6 @@
 # Project Euler Exercises
 
-Some of my solutions to project Euler problems.
+Some of my solutions to [Project Euler](https://projecteuler.net) problems.
 
 ## Workflow
 
